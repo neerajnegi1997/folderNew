@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 45px;
+}
+header nav ul{
+    display: flex;
+    margin-left: 70%;
+    list-style: none;
+}
+
+header nav ul li{
+    padding-left: 10%;
+}
+header a{
+    text-decoration: none;
+    color: rgb(252, 7, 7);
+}
+section{
+    height: 50vh;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container{
+    margin-top: 5%;
+}
+
+.Container h2{
+    margin-top: 15%;
+    background-color: antiquewhite;
+    font-size: 3em;
+    color: rgb(255, 43, 5);
+    font-family: 'lucida sans', 'Lucida Sans regular', 'lucida Grande', 'lucida Sans unicode', Geneva, Verdana, sans-serif;
+}
+.Container img{
+    height: 200px;
+    border-radius: 60%;
+}
+
+footer{
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+
+}
+
+#intro{
+    background-image: url(pexelnew.jpg);
+    background-repeat: round;
+    background-color: aqua;
+}
+#about{
+    background-color: bisque;
+}
+#contact{
+    background-color: blanchedalmond;
+}
